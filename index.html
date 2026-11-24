@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sivasakthi P – Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="rainbow"></div>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a class="brand" href="#top"><span class="logo" aria-hidden="true">S</span>Sivasakthi P</a>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Internships</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme" type="button" aria-label="Switch light or dark theme">Theme</button></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
+    <span class="hi">Hi, I’m</span>
+    <h1>Sivasakthi P</h1>
+    <p class="role"><span id="typed">Full Stack Developer</span></p>
+    <p class="sub">Third-year B.Tech IT student at SRM Institute of Science and Technology. I build responsive web apps with React, Python, Flask and MySQL.</p>
+    <div class="cta">
+      <a class="btn p" href="#projects">See my projects</a>
+      <a class="btn s" href="#contact">Get in touch</a>
+      <a class="btn" href="https://github.com/sivasakthipetchi6606" target="_blank" rel="noopener">GitHub</a>
+    </div>
+
+    <div class="stats" style="margin-top:2.5rem">
+      <div class="stat"><b>8.33</b><span>CGPA</span></div>
+      <div class="stat"><b>2</b><span>Full-stack projects</span></div>
+      <div class="stat"><b>2</b><span>Virtual internships</span></div>
+      <div class="stat"><b>3</b><span>Languages spoken</span></div>
+    </div>
+
+    <div class="finder">
+      <label for="q">Search my work by prefix</label>
+      <input id="q" type="search" autocomplete="off" placeholder="Try “fla”, “rea” or “tri”">
+      <div class="chips" id="chips" aria-label="Quick searches"></div>
+      <p class="hint" id="hint">Type the start of a skill, tool or project name. It works the way my music project indexes songs.</p>
+      <ul id="results" aria-live="polite"></ul>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 class="sec-title">About me</h2>
+    <div class="prose">
+      <p>I’m a motivated developer with hands-on full-stack experience from academic projects and virtual internships. I’m interested in software development, web technologies and artificial intelligence.</p>
+      <p>I enjoy building responsive apps, solving real-world problems and turning ideas into working software. I’m always sharpening my technical and problem-solving skills.</p>
+      <p>My goal is to become a skilled Full Stack Developer who builds user-friendly applications and grows through industry experience.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="sec-title">Projects</h2>
+    <div class="projects">
+      <article class="project a" id="p-music">
+        <header>
+          <h3>Intelligent Music Search &amp; Recommendation System</h3>
+          <ul class="tags"><li>Python</li><li>Flask</li><li>Trie</li><li>Bloom Filter</li><li>NLP</li><li>JSON</li></ul>
+        </header>
+        <div class="body"><ul class="pts">
+          <li>Flask music search platform with prefix search, fuzzy matching, spell correction and NLP-based query processing.</li>
+          <li>Trie and Bloom Filter for fast song indexing, searching and duplicate detection.</li>
+          <li>Ranking based on word overlap, prefix matching, song popularity and title similarity.</li>
+          <li>User authentication, personalized playlists, play-count tracking and co-play recommendations.</li>
+        </ul></div>
+      </article>
+      <article class="project b" id="p-college">
+        <header>
+          <h3>College Dashboard: Search &amp; Comparison Platform</h3>
+          <ul class="tags"><li>Python</li><li>Flask</li><li>MySQL</li><li>REST API</li></ul>
+        </header>
+        <div class="body"><ul class="pts">
+          <li>Flask platform backed by MySQL to manage structured college, course and review data.</li>
+          <li>Search by college name, location, type, counselling code and course names using SQL queries.</li>
+          <li>APIs for college comparison, course retrieval, reviews and full CRUD on college records.</li>
+          <li>Relational tables for colleges, courses and college-course mappings.</li>
+        </ul></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="sec-title">Skills</h2>
+    <div class="skillgrid">
+      <div class="skill"><h3>Languages</h3><ul><li>C++</li><li>Python</li><li>Java (learning)</li></ul></div>
+      <div class="skill"><h3>Web</h3><ul><li>HTML</li><li>CSS</li><li>React</li></ul></div>
+      <div class="skill"><h3>Backend</h3><ul><li>Python</li><li>Flask</li><li>REST APIs</li></ul></div>
+      <div class="skill"><h3>Database</h3><ul><li>MySQL</li></ul></div>
+      <div class="skill"><h3>Data structures</h3><ul><li>Trie</li><li>Bloom Filter</li><li>DSA</li></ul></div>
+      <div class="skill"><h3>Soft skills</h3><ul><li>Teamwork</li><li>Communication</li><li>Problem-solving</li><li>Time management</li><li>Adaptability</li></ul></div>
+    </div>
+    <p class="learn">Learning now: advanced React concepts and Java</p>
+  </section>
+
+  <section id="experience">
+    <h2 class="sec-title">Internships</h2>
+    <ul class="timeline">
+      <li><h3>AI/ML Virtual Internship</h3><p><span class="pill">Recent</span> Eduskill · Virtual</p></li>
+      <li><h3>Java Full Stack Development Virtual Internship</h3><p><span class="pill">Recent</span> Eduskill · Virtual</p></li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2 class="sec-title">Education</h2>
+    <div class="edu-row">
+      <div class="cgpa">8.33<small style="font-size:1rem;color:var(--muted);font-family:'Instrument Sans',sans-serif;font-weight:600"> CGPA</small></div>
+      <div>
+        <h3 style="font-size:1.4rem">SRM Institute of Science and Technology</h3>
+        <p style="margin:.3rem 0 0;color:var(--muted)">B.Tech, Information Technology · Third year · Expected graduation 2028 · Tamil Nadu, India</p>
+      </div>
+    </div>
+    <div class="langs"><span>Tamil: native</span><span>English: fluent</span><span>Hindi: read and write</span></div>
+  </section>
+
+  <section id="interests">
+    <h2 class="sec-title">Interests</h2>
+    <ul class="ints">
+      <li>Full stack web development</li><li>Software engineering</li><li>AI and machine learning</li><li>Frontend and backend</li><li>Database management</li><li>Data structures and algorithms</li><li>Application development</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <div class="contact-box">
+      <h2>Let’s build something.</h2>
+      <a class="mail" href="mailto:ssivasakthi6606@gmail.com">ssivasakthi6606@gmail.com</a>
+      <p>+91 9385827606 · Tirunelveli, Tamil Nadu, India</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/sivasakthipetchi6606" target="_blank" rel="noopener">GitHub profile</a>
+        <a class="btn y" href="https://github.com/sivasakthipetchi6606/sivasakthi-portfolio" target="_blank" rel="noopener">Portfolio repository</a>
+        <a class="btn" href="mailto:ssivasakthi6606@gmail.com">Send an email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Sivasakthi P</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
